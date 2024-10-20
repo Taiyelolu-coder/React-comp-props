@@ -1,0 +1,36 @@
+.Blog-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:50px;
+   background-color: rgb(63, 58, 58);
+   color: azure;
+   border-top:1px solid darkgrey; 
+
+}
+
+img{
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 3px 2px rgb(173, 144, 144);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(3, 3, 5)
+}
+h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: 20px;
+    color:rgb(3, 3, 3);
+    font-style: oblique;
+    font-weight: 600;
+}
+h5{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}

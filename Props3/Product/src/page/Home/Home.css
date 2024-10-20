@@ -1,0 +1,9 @@
+.Product-page{
+    background-color: rgb(243, 229, 174);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding:50px 250px;
+    gap: 50px;
+}
