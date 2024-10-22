@@ -1,18 +1,22 @@
 .Container{
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 350px;
+    
     gap: 30px;
     padding-top:60px ;
     padding-bottom:60px ;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(250, 247, 247); 
 }
 
 img{
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 5px 5px;
-    /* height: auto; */
+    width: 400px;
+ border-top-right-radius: 15px;
+ border-top-left-radius: 15px;
 }
+
+
 
 h1{
     font-size: 40px;
@@ -21,4 +25,16 @@ h1{
 
 h2{
     color: rgb(63, 61, 61);
+}
+
+
+@media screen and (max-width: 580px){
+    .Container{
+        display:flex;
+        flex-wrap: wrap;
+        margin:auto ;
+        padding-left: none;
+        align-items: center;
+        justify-content: center;
+    }
 }

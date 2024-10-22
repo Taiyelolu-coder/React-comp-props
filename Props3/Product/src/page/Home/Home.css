@@ -1,9 +1,18 @@
 .Product-page{
-    background-color: rgb(243, 229, 174);
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
     padding:50px 250px;
-    gap: 50px;
+    gap: 70px;
 }
+
+@media screen and(max-width:580px) {
+    .Product-page{
+      flex-wrap: wrap;
+
+    }
+}
+

@@ -1,3 +1,15 @@
 body{
-    background-color:  mediumseagreen;
+    background-color:  whitesmoke;
+    padding: auto;
+}
+
+@media screen and (max-width: 580px){
+    body{
+        display:flex;
+        flex-wrap: wrap;
+        margin:auto ;
+        padding-left: none;
+        align-items: center;
+        justify-content: center;
+}
 }

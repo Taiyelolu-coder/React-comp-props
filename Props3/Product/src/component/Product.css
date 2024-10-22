@@ -1,10 +1,21 @@
+.product{
+    /* border: 1px solid red; */
+    box-shadow: 1px 1px lightgray;
+    
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
 
-
+.product:hover{
+    transform: translateX(-5px);
+    box-shadow: 1px 1px lightgray;
+}
 img{
-    width: 300px;
+    width: 350px;
     height: 300px;
     border-radius: 10px;
-    box-shadow: 2px 2px rgb(243, 229, 174);
+
 }
 
 

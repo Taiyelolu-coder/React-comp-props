@@ -1,18 +1,20 @@
 .Blog-container{
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
-   gap:50px;
-   background-color: rgb(63, 58, 58);
+   gap:500px;
+   /* background-color: rgb(17, 14, 14); */
    color: azure;
    border-top:1px solid darkgrey; 
+   border-radius: 30px;
+   /* width: 100px; */
 
 }
 
 img{
-    width: 1000px;
+    width: 800px;
     border-radius: 10px;
-    box-shadow: 3px 2px rgb(173, 144, 144);
+    
 }
 
 h1{
@@ -33,4 +35,11 @@ p{
 h5{
     font-size: 20px;
     color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:580px){
+    .Blog-container{
+        width:500px;
+    
+    }
 }

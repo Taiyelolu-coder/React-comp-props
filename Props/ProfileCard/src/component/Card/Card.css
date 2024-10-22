@@ -1,0 +1,16 @@
+.Profile-card{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: white;
+  width: 400px;
+  align-items: center;
+  align-self: center;
+  box-shadow: 2px 3px rgb(243, 234, 234);
+  border-radius: 15px;
+}
+
+.Profile-card:hover{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: translateY(-10px);
+}
